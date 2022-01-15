@@ -163,7 +163,7 @@ main section start
     color: gold;
 }
 .more {
-    margin-left: 200px;
+    margin-left: 150px;
 }
 /*------------------
 main section end
@@ -201,7 +201,12 @@ footer h1 {
 /*------------------
 footer section end
 -------------------*/
-
+.bonus {
+    margin-top: 80px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
 
 
 
@@ -259,8 +264,20 @@ footer section end
         grid-template-columns: repeat(1, 1fr);
     }
     footer {
-        height: 300px;
+        height: 400px;
         background: midnightblue;
+    }
+    .bonus {
+        display: flex;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .bonus img {
+        width: 80%;
+        transition: 1s;
+    }
+    .bonus img:hover {
+        width: 90%;
     }
 }
 @media screen and (min-width: 577px) and (max-width: 768px) {
@@ -282,6 +299,11 @@ footer section end
         padding-left: 20px;
         display: flex;
         justify-content: space-around;
+    }
+    .first-content-sec img {
+        padding: 0;
+        width: 400px;
+        height: auto;
     }
     /* header nav */
     /* main section start */
