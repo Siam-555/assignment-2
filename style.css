@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Heebo', sans-serif;
+}
+/*-------------------
+header section start
+--------------------*/
+/* navbar start */
+nav {
+    font-family: 'Dongle', sans-serif;
+}
+header h1 {
+    font-size: 60px;
+    padding-top: 15px;
+}
+.nav-div {
+    padding: 0 20px;
+    height: 110px;
+    background: #E5E5E7;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-div .nav-links {
+    padding-top: 33px;
+}
+.nav-links a {
+    padding: 0 5px;
+    font-size: 30px;
+    color: darkgoldenrod;
+    text-decoration: none;
+}
+.head-icon {
+    display: flex;
+}
+.head-awesome {
+    padding: 0 8px 0px 7px;
+    padding-top: 20px;
+    font-size: 25px;
+    text-align: center;
+}
+.head-awesome a {
+    display: block;
+    text-decoration: none;
+}
+.fas {
+    color: gray;
+}
+/* navbar end */
+.first-content-sec {
+    padding: 40px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.first-content {
+    width: 50%;
+}
+.first-content h1 {
+    font-size: 50px;
+    border-left: 8px double blue;
+}
+.first-content p{
+    padding-top: 40px;
+}
+.head-span {
+    color: goldenrod;
+}
+.first-content-sec img {
+    padding: 0;
+    max-width: 50%;
+    height: auto;
+}
+
+/* sponsors start */
+.sponsors {
+    margin: 0 40px;
+}
+.sponsors h2 {
+    text-align: center;
+}
+.sponsors-img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.sponsors-img img{
+    padding: 2px 20px;
+}
+hr {
+    height: 2px;
+    background: linear-gradient(to right, white, darkgrey, grey, darkgrey, white);
+}
+/* sponsors end */
+/*------------------
+header section end
+-------------------*/
+
+
+
+/*-------------------
+main section start
+--------------------*/
+
+/*------------------
+main section end
+-------------------*/
+
+
+
+/*-------------------
+footer section start
+--------------------*/
+
+/*------------------
+footer section end
+-------------------*/
+
+
+
+
+
+
+
+/* responsive */
+@media screen and (max-width: 767px) {
+    .first-content-sec {
+        padding-left: 10px;
+        display: block;
+    }
+    .first-content {
+        width: 100%;
+    }
+    .first-content-sec img {
+        padding: 0;
+        width: 100%;
+        height: auto;
+        align-content: center;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    
+}
