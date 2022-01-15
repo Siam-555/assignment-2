@@ -65,6 +65,20 @@ header h1 {
 .first-content p{
     padding-top: 40px;
 }
+.first-content button {
+    margin-top: 30px;
+    padding: 10px 15px;
+    background: linear-gradient(skyblue, lightblue);
+    border: brown solid;
+    border-radius: 8px;
+    transition: .4s;
+}
+.fa-shopping-cart {
+    padding-left: 5px;
+}
+.first-content button:focus {
+    box-shadow: inset 0 0 7px 1px;
+}
 .head-span {
     color: goldenrod;
 }
@@ -90,7 +104,8 @@ header h1 {
     padding: 2px 20px;
 }
 hr {
-    height: 2px;
+    height: 5px;
+    border: none;
     background: linear-gradient(to right, white, darkgrey, grey, darkgrey, white);
 }
 /* sponsors end */
@@ -125,7 +140,7 @@ footer section end
 
 
 /* responsive */
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 576px) {
     .first-content-sec {
         padding-left: 10px;
         display: block;
