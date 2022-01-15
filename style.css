@@ -157,7 +157,7 @@ footer section end
 @media screen and (max-width: 576px) {
     /* header nav */
     header h1 {
-        font: 50px;
+        font: 40px;
         padding-top: 18px;
     }
     .sponsors-img img {
@@ -180,22 +180,8 @@ footer section end
         display: block;
     }
     .nav-links {
-        display: absolute;
-        width: 100%;
+        display: none;
     }
-    .nav-links a {
-        background: dimgrey;
-        color: lightseagreen;
-        display: block;
-        align-content: center;
-        transition: .3s;
-    }
-    .nav-links a:hover {
-        background: lightgrey;
-    }
-    /* .nav-div button:focus + .nav-links {
-        display: absolute;
-    } */
     /* header nav */
 }
 @media screen and (min-width: 577px) and (max-width: 768px) {
