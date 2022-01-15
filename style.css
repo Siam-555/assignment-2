@@ -160,7 +160,6 @@ main section start
 .fa-star {
     color: gold;
 }
-
 /*------------------
 main section end
 -------------------*/
@@ -170,7 +169,30 @@ main section end
 /*-------------------
 footer section start
 --------------------*/
-
+footer {
+    height: 210px;
+    background: midnightblue;
+    color: white;
+}
+footer h1 {
+    padding-top: 20px;
+    text-align: center;
+}
+.footer-div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer-div > div > h2 {
+    padding: 5px;
+}
+.footer-div > div > div {
+    padding: 4px 15px;
+}
+.last {
+    text-align: center;
+}
 /*------------------
 footer section end
 -------------------*/
