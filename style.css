@@ -162,8 +162,8 @@ main section start
 .fa-star {
     color: gold;
 }
-.more p {
-    border: 2px solid brown;
+.more {
+    margin-left: 200px;
 }
 /*------------------
 main section end
@@ -175,7 +175,7 @@ main section end
 footer section start
 --------------------*/
 footer {
-    height: 210px;
+    height: 250px;
     background: midnightblue;
     color: white;
 }
@@ -218,9 +218,6 @@ footer section end
     .fas {
         font-size: 20px;
     }
-    .first-content {
-        width: 90%;
-    }
     .first-content h1 {
         font-size: 30px;
     }
@@ -261,10 +258,31 @@ footer section end
         display: grid;
         grid-template-columns: repeat(1, 1fr);
     }
+    footer {
+        height: 300px;
+        background: midnightblue;
+    }
 }
-@media screen and (min-width: 577px) {
+@media screen and (min-width: 577px) and (max-width: 768px) {
     /* header nav */
-  
+    .nav-div h1 {
+        font-size: 55px;
+        padding-top: 20px;
+    }
+    .first-content {
+        width: 60%;
+    }
+    .first-content h1 {
+        font-size: 35px;
+    }
+    .fst-img {
+        width: 70%;
+    }
+    .first-content-sec {
+        padding-left: 20px;
+        display: flex;
+        justify-content: space-around;
+    }
     /* header nav */
     /* main section start */
     .sec2-div1 {
