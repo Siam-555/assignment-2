@@ -207,7 +207,13 @@ footer section end
     display: flex;
     justify-content: space-evenly;
 }
-
+.btn-bns {
+    margin-top: 5px;
+    padding: 6px 8px;
+    background: chartreuse;
+    border: 2px solid skyblue;
+    border-radius: 10px;
+}
 
 
 
